@@ -1,4 +1,5 @@
 ---
+layout: "blog"
 title: "Localhost Is Not Enough"
 date: 2018-03-04T18:57:33+01:00
 draft: false

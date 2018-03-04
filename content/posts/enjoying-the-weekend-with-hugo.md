@@ -1,4 +1,5 @@
 ---
+layout: "blog"
 title: "Enjoying the Weekend With Hugo"
 date: 2018-03-04T18:32:02+01:00
 draft: false
