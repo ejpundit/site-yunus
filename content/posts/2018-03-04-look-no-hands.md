@@ -2,7 +2,7 @@
 layout: blog
 title: 'look, no hands :-)'
 date: 2018-03-04T21:13:51.465Z
-draft: true
+draft: false
 ---
 # testing of drafts and production versions
 
