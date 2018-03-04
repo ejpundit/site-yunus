@@ -1,0 +1,121 @@
+---
+title: "Enjoying the Weekend With Hugo"
+date: 2018-03-04T18:32:02+01:00
+draft: true
+---
+
+# Experimenting with hugo
+
+So now I installed hugo and theme. I learned, `that hugo server -D` starts hugo and listens for changes in the file system.
+Nice! Oh, and I had to add the posts menu to `config.toml` by adding
+```
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "/posts"
+```
+where /posts is the child directory from directory content, which is seen as the root.
+
+# Markdown
+
+Markdown is something to get used to. Yes, it is easier then html.
+But let's see if the intellij understanding of markdown is the same as that of hugo+nix, by copying the sample of intellij below:
+
+*[ABBR]: Abbreviation definition
+
+Abbreviated Text: ABBR
+
+Auto link: <http://example.com>
+
+Inline `code`
+
+Bold Italic Text: ***bold italic***, **_bold italic_** and ***normal text
+
+Bold: **bold**, ***bold italic***, **_bold italic_**, and **normal text
+
+Escaped Character: \* \_ \` \& \[ \] \< \> \! \# \\ \" \' \. \- \( \) \{ \} \: \| \~
+
+Explicit Link : [Example](http://example.com)
+
+Footnote Reference[^1]
+
+Italic Text: *italic*, _italic_ and this one is not *italic
+
+Image: ![My image](https://upload.wikimedia.org/wikipedia/commons/d/d5/Japan_small_icon.png)
+
+Inline HTML: <b>bold</b> &nbsp; &#10; &#x0a;
+
+Hard Break Spaces: at end of line
+    that has a continuation.
+
+Mail Link: <me@example.com>
+
+Smart Characters: ... -- --- a's b's
+
+Smart quotes 'this is a quote'
+
+Strikethrough: ~~strikethrough **strikethrough bold** *strikethrough italic* _strikethrough italic_ ***strikethrough bold italic*** **_strikethrough bold italic_**~~
+
+WikiLink: [[Link address and Link Text]]  Creole syntax: [[Link address|Link text]]  [[Link address#anchor|Link text]] GitHub syntax: [[Link text|Link address]] [[Link text|Link address#anchor]]
+
+<!-- Comment -->
+
+> block quote
+
+* bullet list
+1. List Item 1
+* [ ] task item
+* [x] task item (done)
+* [X] task item (done)
+
+[^1]: Footnote text
+
+[Reference]: http://example.com#anchor-reference  "Title"
+Reference link: [link text][reference] [reference].
+Reference image: ![alt text][reference] ![reference].
+
+
+Term 1
+:   Definition 1.1
+:   Definition 1.2
+
+Term 2
+:   Definition 2.2
+
+| Header Colum1 1 | Header Column 2 |
+|:--------------------|:-------------------:|
+| Row 1 Cell 1        |    Row 1 Cell 2     |
+| Row 2 Cell 1        |    Row 2 Cell 2     |
+| Row 2 Cell 1        |    Row 2 Cell 2     |
+[Table Caption]
+
+```language
+   Verbatim Block
+```
+
+# First level title
+
+First level title
+=================
+
+## Second level title
+
+Second level title
+------------------
+
+### Third level title
+
+#### Fourth level title
+
+##### Fifth level title
+
+###### Sixth level title
+
+* * *
+
+<div>
+Block
+</div>
+
+
