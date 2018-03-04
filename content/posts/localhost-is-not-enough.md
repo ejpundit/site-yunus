@@ -33,6 +33,7 @@ The draft status defaults to true and is set in the frontmatter of the content. 
 # let netlify build and deploy
 
 Committing automatically starts the build and a successfull build starts automatically the deploy.
+
 So: ![hugo-github-netlify](https://colinwilson.uk/img/hugo-github-netlify.png)
 
 
