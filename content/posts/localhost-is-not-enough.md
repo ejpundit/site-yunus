@@ -4,7 +4,7 @@ date: 2018-03-04T18:57:33+01:00
 draft: false
 ---
 
-# `localhost` ist not enough
+# what happened up till now
 
 So now I got the site running on localhost, but that is not enough.
 We want visitors!
