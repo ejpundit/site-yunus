@@ -9,9 +9,9 @@ draft: false
 So now I got the site running on localhost, but that is not enough.
 We want visitors!
 So this is the plan:
- [ ] push the hugo site to github in it's own repository
- [ ] create a netlify site
- [ ] let netlify build and deploy
+ [x] push the hugo site to github in it's own repository
+ [x] create a netlify site
+ [x] let netlify build and deploy
 
 # push the hugo site to github in it's own repository
 
@@ -27,7 +27,7 @@ Git push and we are done.
 Using the existing netlify account it is easy to deploy a new site.
 Just select the source, in our case github and select from the found repositories site-yunus.
 Ok, everything was working fine, but no posts were found due to a lack of knowledge of hugo.
-Hugo differs between draft, expired and future versions. Building with just `hugo` will take draft content into account.
+Hugo differentiates between draft, expired and future versions. Building with just `hugo` will take draft content into account.
 The draft status defaults to true and is set in the frontmatter of the content. Switch it to false et voila ... .
 
 # let netlify build and deploy
