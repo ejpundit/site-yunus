@@ -13,6 +13,6 @@ The site is generated with a static site generator (ssg) called `hugo`.
 Fun fact: `hugo` ist written in `go`, which is short for `golang`. Do you get it? *hugo* ;-)
 The theme choosen to present the content is `hugo-theme-nix`, which is a simple, minimal theme for Hugo. No fun facts here.
 
-
+# and good bye
 
 
