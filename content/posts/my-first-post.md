@@ -1,7 +1,7 @@
 ---
-layout: "blog"
-title: "My First Post"
-date: 2018-03-04T18:09:04+01:00
+layout: blog
+title: My First Post
+date: 2018-03-04T17:09:04.000Z
 draft: false
 ---
 
