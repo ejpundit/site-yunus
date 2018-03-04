@@ -15,7 +15,15 @@ So this is the plan:
  [ ] configure the build on netlify
  [ ] let netlify build and deploy
 
- ## push the hugo site to github in it's own repository
+## push the hugo site to github in it's own repository
 
- git remote add origin https://github.com/ejpundit/site-yunus.git
- git push -u origin master
+Quit simple: create an empty repository site-yunus in the already existing github account and set the remote for the local git repository like this
+
+`git remote set-url origin git@github.com:ejpundit/site-yunus.git`
+
+Now upload the ssh key to github to authenticate.
+Git push and we are done.
+
+## create a netlify site
+
+
