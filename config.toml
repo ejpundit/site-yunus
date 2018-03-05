@@ -1,6 +1,6 @@
-baseURL = "https://distracted-goldstine-350734.netlify.com/"
+baseURL = "https://yunus3001.netlify.com/"
 languageCode = "en-us"
-title = "Willkommen auf meinem Site"
+title = "yunus3001"
 theme = "hugo-theme-nix"
 
 [menu]
