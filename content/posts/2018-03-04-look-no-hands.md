@@ -13,8 +13,6 @@ When using the editor:
 
 **bold **_italic _`code` [link to google](www.google.de) 
 
-
-
 # H1
 
 ## H2
@@ -28,5 +26,7 @@ code block
 * bulleted list
 
 1. numbered list
+
+Image:
 
 ![image](/images/uploads/ej.jpg)
