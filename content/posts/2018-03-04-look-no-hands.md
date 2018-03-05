@@ -7,6 +7,26 @@ draft: false
 # testing of drafts and production versions
 
 Some content
-*schräg*
+_schräg_
 
-## heading
+When using the editor:
+
+**bold **_italic _`code` [link to google](www.google.de) 
+
+
+
+# H1
+
+## H2
+
+> quote
+
+```
+code block
+```
+
+* bulleted list
+
+1. numbered list
+
+![image](/images/uploads/ej.jpg)
