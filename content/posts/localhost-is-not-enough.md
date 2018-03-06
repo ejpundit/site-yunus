@@ -11,7 +11,7 @@ We want visitors!
 So this is the plan:
 
 
- [x] push the hugo site to github in it's own repository
+ (x) push the hugo site to github in it's own repository
  [x] create a netlify site
  [x] let netlify build and deploy
 
