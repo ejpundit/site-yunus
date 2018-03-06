@@ -1,15 +1,16 @@
 ---
-layout: "blog"
-title: "Localhost Is Not Enough"
-date: 2018-03-04T18:57:33+01:00
-draft: false
+layout: blog
+title: Localhost Is Not Enough
+date: 2018-03-04T17:57:33.000Z
+draft: true
 ---
-
 # what happened up till now
 
 So now I got the site running on localhost, but that is not enough.
 We want visitors!
 So this is the plan:
+
+
  [x] push the hugo site to github in it's own repository
  [x] create a netlify site
  [x] let netlify build and deploy
@@ -36,9 +37,3 @@ The draft status defaults to true and is set in the frontmatter of the content. 
 Committing automatically starts the build and a successfull build starts automatically the deploy.
 
 So: ![hugo-github-netlify](https://colinwilson.uk/img/hugo-github-netlify.png)
-
-
-
-
-
-
