@@ -2,7 +2,7 @@
 layout: blog
 title: Localhost Is Not Enough
 date: 2018-03-04T17:57:33.000Z
-draft: true
+draft: false
 ---
 # what happened up till now
 
@@ -11,9 +11,9 @@ We want visitors!
 So this is the plan:
 
 
- (x) push the hugo site to github in it's own repository
- [x] create a netlify site
- [x] let netlify build and deploy
+ * push the hugo site to github in it's own repository
+ * create a netlify site
+ * let netlify build and deploy
 
 # push the hugo site to github in it's own repository
 
