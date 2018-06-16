@@ -13,4 +13,4 @@ Just add an admin folder under static with two file
 * index.html to include the cms
 * config.yml to configure the cms
 
-To configure netlify cms without making my hugo site know about it, there is this cool feature _Script Injection_ as part of the post deploy step. With this feature an the needed JavaScript snippets can be injected into the `head`-section on every page of the site.
+To configure netlify cms without making my hugo site know about it, there is this cool feature _Script Injection_ as part of the post deploy step. With this feature the needed JavaScript snippets can be injected into the `head`-section on every page of the site.
